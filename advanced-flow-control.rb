@@ -6,8 +6,4 @@
 puts "What is your name?"
 user_input = gets.chomp
 
-if user_input.start_with?("S", "s")
-  puts user_input.upcase
-else
-  puts "Hi #{user_input}."
-end
+if user_input.start_with?("S", "s") then puts user_input.upcase else puts "Hi #{user_input}." end
